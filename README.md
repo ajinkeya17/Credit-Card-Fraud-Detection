@@ -10,7 +10,7 @@ Anomaly detection is a common problem that comes up in many applications such as
 It is the process of finding the outliers or anomalous points given a dataset. In these applications, usually there are many examples of normal data points, but very few or no examples of anomalous data points. In other words we have mostly examples of a single class and have very few examples of the anomaly class making the classification problem highly imbalanced.
 Hence supervised learning techniques such as random forests and SVM are hard to use in this highly imbalanced setting.
 
-We use unsupervised learning techniques which deal well with imbalanced datasets.
+We use unsupervised learning techniques which deal well with imbalanced datasets. The result of each algo will be a vactor indicating if the data point passed for prediction is an anomaly or not.
 
 ### 1.) Isolation Forests:
 The random forest classifier is an ensemble learning technique. It consists of a collection of decision trees, whose outcome is aggregated to come up with a prediction.
