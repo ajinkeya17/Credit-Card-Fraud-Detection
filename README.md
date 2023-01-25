@@ -17,8 +17,7 @@ The random forest classifier is an ensemble learning technique. It consists of a
 Individual decision trees are prone to overfitting. Random Forest is a bagging technique that constructs multiple decision trees by selecting a random subset of data points and features for each tree. Given a subset of the data and featurees, the decision trees themselves are created by partitioning the data feature by feature until each leaf is homogeneous.
 
 The goal of isolation forests is to “isolate” outliers. The algorithm is built on the premise that anomalous points are easier to isolate tham regular points through random partitioning of data.
-The algorithm itself comprises of building a collection of isolation trees(itree) from random subsets of data, and aggregating the anomaly score from each tree to come up with a final anomaly score for a point.
-The isolation forest algorithm is explained in detail in the video above. Here is a brief summary.
+The algorithm itself comprises of building a collection of isolation trees(itree) from random subsets of data, and aggregating the anomaly score from each tree to come up with a final anomaly score for a point. Here is a brief summary.
 
 Given a dataset, the process of building or training an isolation tree involves the following:
 
